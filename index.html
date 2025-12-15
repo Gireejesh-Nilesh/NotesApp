@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NotesApp</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="btns">
+          <div class="btn add" title="add new note"><i class="ri-add-line"></i></div>
+          <div class="btn" title="next task"><i class="ri-arrow-up-line"></i></div>
+          <div class="btn" title="previous task"><i class="ri-arrow-down-line"></i></div>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="profile">
+            </div>
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptatum sunt error veritatis ea minus accusantium harum iste debitis. Laborum asperiores expedita porro minima ut est non molestiae quae nulla?</p>
+          </div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+        <div class="right">
+          <div class="r" title="Want to meet"></div>
+          <div class="r" title="Casual talk"></div>
+          <div class="r" title="Emergency"></div>
+          <div class="r" title="Entertaiment"></div>
+        </div>
+      </div>
+      <form>
+        <label for="theme">Theme</label>
+        <input type="text" name="theme" id="theme" placeholder="Provide related image">
+        <label for="username">Topic</label>
+        <input type="text" name="username" id="username" placeholder="e.g. Coffee">
+        <label for="desc">Description</label>
+        <input type="text" name="desc" id="desc" placeholder="Describe work">
+        <button class="createBtn">Create</button>
+        <button class="closeBtn">Close</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
