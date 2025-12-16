@@ -73,22 +73,23 @@ html, body {
   border: 1.5px solid #444;
   display: flex;
   flex-direction: column;
-  
 }
 
 .cards .card:nth-child(1) {
   z-index: 9;
-  transform: translateY(10px);
+  opacity: 1;
 }
 
 .cards .card:nth-child(2) {
   z-index: 8;
-  transform: translateY(15px);
+  transform: translateY(5px);
+  opacity: 0.8;
 }
 
 .cards .card:nth-child(3) {
   z-index: 3;
-  transform: translateY(20px);
+  transform: translateY(10px);
+  opacity: 0.6;
 }
 
 .card .profile{
@@ -97,6 +98,8 @@ html, body {
   border-radius: 50%;
   background-color: #fff;
   margin-bottom: 3rem;
+  /* background-image: url('https://images.unsplash.com/photo-1617922001439-4a2e6562f328?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW9kZWxzfGVufDB8fDB8fHww'); */
+  background-size: cover;
 }
 
 .card p{
@@ -145,6 +148,7 @@ html, body {
 
 /* Form */
 form {
+  min-width: 500px;
   position: absolute;
   z-index: 999;
   border: 1px solid #777;
@@ -169,6 +173,7 @@ form input[type="text"]{
   border: 1px solid #333;
   border-radius: 10px;
   padding: 0 10px;
+  color: #fefefe;
 }
 
 form input::placeholder {
@@ -192,4 +197,12 @@ form .createBtn{
 
 form button:hover{
   opacity: 1;
+}
+
+
+.radio-group{
+  display: flex;
+  gap: 10px;
+  color: #fefefe;
+  flex-direction: column;
 }
