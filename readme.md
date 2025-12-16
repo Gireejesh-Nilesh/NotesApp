@@ -1,5 +1,7 @@
 # Card Stack Manager
 
+live link : https://gireejesh-nilesh.github.io/NotesApp/
+
 A simple and interactive card stack web application that allows users to create cards using a form, store them in localStorage, and display them in a stacked card UI where only the top cards are visible.
 
 ## Features
@@ -27,6 +29,7 @@ Vanilla JavaScript
 Browser LocalStorage
 
 ## Project Structure
+
 ├── index.html
 ├── style.css
 ├── script.js
@@ -73,11 +76,12 @@ One category must be selected
 Submission is prevented if validation fails
 
 ## Sample Stored Data Format
+
 {
-  "theme": "https://image-url.com",
-  "topic": "Coffee",
-  "desc": "A casual discussion over coffee",
-  "category": "casual"
+"theme": "https://image-url.com",
+"topic": "Coffee",
+"desc": "A casual discussion over coffee",
+"category": "casual"
 }
 
 ## How to Run
